@@ -1,4 +1,7 @@
 ///----------------------------------------------------------------------------------------------------
+#include <iostream>
+#include <type_traits>
+#include <catch2/catch.hpp>
 
 template <class...>
 struct TypeList {};
@@ -25,8 +28,6 @@ void jniRegisterNatives(const Args&... args) {
         }
     }
 }
-
-
 
 
 ///library
